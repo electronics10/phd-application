@@ -10,7 +10,7 @@ GitHub Issues in this repo, via the `gh` CLI. See `docs/agents/issue-tracker.md`
 
 ### Triage labels
 
-Tailored for application work (`task`/`blocker`/`dropped` in place of `enhancement`/`bug`/`wontfix`). See `docs/agents/triage-labels.md`.
+The default canonical set: `bug`, `enhancement`, `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
 
 ### Domain docs
 
