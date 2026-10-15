@@ -12,7 +12,9 @@ Variant A = USCT wave inversion / FWI SOP (issue #3). Variant B = photonic inver
 
 Of the 14 named people in the original hypothesis list, **all but two resolved to a current, verifiable, PhD-admitting university affiliation** — but three of them had moved institutions since the list was first drawn up, and two (both at Los Alamos National Laboratory) could not be tied to any PhD-admitting university appointment at all, consistent with the brief's own caveat about LANL. One named person (Christian Böhm/Boehm at ETH) could not be confirmed as currently active in any faculty role. One named person ("Marty") turned out to be a graduate student in the ETH group, not a PI.
 
-**Final list: 11 program entries across 9 institutions.** Distribution: **4 Europe-based entries (Imperial x2 departments, ETH, DTU) / 7 US-based entries** (WashU, UT Austin, UNC, Rochester, Stanford, Princeton, MIT). **This diverges from the applicant's own 5-6/5-6 Europe/US target** — see §4 for why, and §5 for what it would take to close the gap honestly rather than by padding.
+**Final list: 10 program entries across 8 institutions.** Distribution: **4 Europe-based entries (Imperial x2 departments, ETH, DTU) / 6 US-based entries** (WashU, UT Austin, UNC, Stanford, Princeton, MIT). **This diverges from the applicant's own 5-6/5-6 Europe/US target** — see §4 for why, and §5 for what it would take to close the gap honestly rather than by padding.
+
+**Correction log (2026-10-15, user review):** (1) University of Rochester/Duric dropped per the applicant's own fit judgment — too medical-oriented for the methodological framing wanted, not a factual error in the original entry. (2) The original Villa (UT Austin) entry's "POI contact norm: unconfirmed" was wrong — the user found Villa's own lab page stating the opposite directly. See §1.4 and §7 for what that miss was and what a targeted re-check of the remaining entries did and didn't turn up.
 
 ---
 
@@ -57,7 +59,7 @@ Two separate departments are active in ultrasound tomography via the joint **TRU
 - **[FACT]** PI: **Umberto Villa** — Research Associate Professor and Core Faculty at the Oden Institute, joined 2022 from a research-assistant-professor post at WashU (Electrical & Systems Engineering); co-developer of **hIPPYlib**, a toolkit for large-scale PDE-constrained deterministic and Bayesian inverse problems (Oden Institute directory listing; JOSS paper on hIPPYlib with Noemi Petra and Omar Ghattas, accessed 2026-10-15). This confirms the original hypothesis as current.
 - **[INFER]** Fit note: Villa's work (adjoint-based PDE-constrained inversion, uncertainty quantification) is a strong **methodological** match to the applicant's MS-thesis identity, even though CSEM is not itself USCT-specific — it's the most "pure methods" program on this list and could anchor either SOP variant depending on framing.
 - **[FACT]** Deadline: CSEM's own page lists a **December 10, 2026** deadline for **Fall 2027 entry**, and states the GRE is not required ([Oden/CSEM application page, oden.utexas.edu], accessed 2026-10-15) — this is an actual current-cycle date, not a proxy.
-- POI-contact norm: not stated on the pages found; **[INFER]** CSEM admission reads as committee-based (no named-advisor requirement surfaced) — flag as unconfirmed, worth a direct email to csemgrad@oden.utexas.edu.
+- **[FACT — CORRECTED 2026-10-15]** POI-contact norm: **direct email contact is explicitly invited**, not unconfirmed/committee-based as originally written here. Villa's own page ([uvilla.github.io/available_positions.html](https://uvilla.github.io/available_positions.html), accessed 2026-10-15) asks prospective PhD students interested in either the **BME or CSEM** PhD programs to email him directly with a CV, transcripts, a brief statement of research interests, and their linear algebra/numerical methods/optimization/programming background. The page does not say this is required before applying, but it is a clear, direct, standing invitation — the opposite of "committee-based, no named-advisor contact." **[FACT]** The page also surfaces a second admissions route not in the original entry: **BME (Biomedical Engineering) PhD**, not only CSEM — worth checking which department's requirements (GRE, prerequisites) fit better. **Root cause of the original miss:** the first research pass checked the Oden Institute/CSEM program page and a JOSS co-authorship paper, but not Villa's own personal site, which is where PI-level contact norms actually live when a PI states one explicitly.
 
 ### 1.5 University of North Carolina at Chapel Hill — School of Data Science and Society (undergoing a 2026 reorganization into a "Division of Data Science and Society" within a School of Data and Information Sciences, per a July 2026 job posting — name is in flux)
 
@@ -65,14 +67,6 @@ Two separate departments are active in ultrasound tomography via the joint **TRU
 - Variant A.
 - **[INFER/FLAG]** Deadline not independently confirmed; the department's recent renaming may also have changed or be changing its admissions pages — check directly before relying on any date found elsewhere.
 - POI-contact norm: not confirmed; **[INFER]** likely optional/committee-based, US norm.
-
-### 1.6 University of Rochester — Dept. of Imaging Sciences (University of Rochester Medical Center)
-
-- **[FACT]** PI: **Nebojsa Duric** — Professor and Vice Chair for Research, Dept. of Imaging Sciences, per a Rochester ECE seminar listing and his URMC profile ([urmc.rochester.edu/people profile; ECE seminar listing], accessed 2026-10-15). This updates the brief's "find current institutional home" instruction — his earlier homes (Karmanos Cancer Institute, Delphinus Medical Technologies) are now prior affiliations.
-- Variant A — this is the **clinical/applied** end of the USCT spectrum, a useful counterweight to the more mathematically-driven groups above.
-- **[FLAG/OPEN QUESTION]** Imaging Sciences at Rochester is a **clinical/medical-school (URMC) department**, structurally distinct from the Hajim School of Engineering's Biomedical Engineering PhD. It was not confirmed in this research which PhD program Duric's own students are formally admitted through — this is exactly the kind of department-precision question the brief flagged as consequential (GRE norms, prerequisite coursework differ), and it needs a direct query before applying.
-- **[INFER]** Deadline: URMC PhD programs generally show a Nov 15 fee-waiver date and a Dec 1 complete-application deadline with rolling review to Jan 1 ([urmc.rochester.edu/education/graduate/phd/admissions.aspx], accessed 2026-10-15) — this is a general URMC pattern, not Imaging-Sciences-specific, so treat as a proxy only.
-- POI-contact norm: not confirmed.
 
 ---
 
@@ -128,13 +122,12 @@ Two separate departments are active in ultrasound tomography via the joint **TRU
 | 4 | Washington University in St. Louis | Mallinckrodt Inst. of Radiology / Electrical & Systems Engineering | Anastasio | A | Unconfirmed; ~Dec 2026 (inferred proxy) | Unconfirmed; likely optional |
 | 5 | UT Austin | Oden Institute, CSEM | Villa | A (methods) | **Dec 10, 2026** (confirmed, Fall 2027) | Unconfirmed; likely optional |
 | 6 | UNC Chapel Hill | School/Division of Data Science (and Society) | Lin | A | Unconfirmed | Unconfirmed; likely optional |
-| 7 | University of Rochester | Imaging Sciences (URMC) | Duric | A | ~Dec 1, 2026 (general URMC proxy) | Unconfirmed |
-| 8 | Stanford University | Electrical Engineering | Vučković | B | Fall 2026 was Dec 2, 2025; Fall 2027 TBD | Unconfirmed; likely optional |
-| 9 | Princeton University | Electrical and Computer Engineering | Rodriguez | B | Fall 2026 was Dec 15, 2025; Fall 2027 app opens Sept 2026 | Unconfirmed; likely optional |
-| 10 | MIT | Mathematics (Applied Math) | Johnson | B | **Dec 1, 2026** (confirmed, Fall 2027) | Unconfirmed; likely optional |
-| 11 | DTU | Civil and Mechanical Engineering / NanoPhoton | Sigmund, Christiansen | B | None — advertised funded positions | Required (structural) |
+| 7 | Stanford University | Electrical Engineering | Vučković | B | Fall 2026 was Dec 2, 2025; Fall 2027 TBD | Unconfirmed; likely optional |
+| 8 | Princeton University | Electrical and Computer Engineering | Rodriguez | B | Fall 2026 was Dec 15, 2025; Fall 2027 app opens Sept 2026 | Unconfirmed; likely optional |
+| 9 | MIT | Mathematics (Applied Math) | Johnson | B | **Dec 1, 2026** (confirmed, Fall 2027) | Unconfirmed; likely optional |
+| 10 | DTU | Civil and Mechanical Engineering / NanoPhoton | Sigmund, Christiansen | B | None — advertised funded positions | Required (structural) |
 
-**Distribution: 4 Europe / 7 US — not the 5-6/5-6 split the applicant originally framed.** See §5.
+**Distribution: 4 Europe / 6 US — not the 5-6/5-6 split the applicant originally framed.** See §5. (Row 5, UT Austin/Villa: POI contact norm corrected 2026-10-15 to "direct email explicitly invited" — see §1.4.)
 
 ---
 
@@ -159,6 +152,7 @@ Two separate departments are active in ultrasound tomography via the joint **TRU
 - **Umberto Villa (UT Austin)** — confirmed current, no change needed.
 - **Imperial (Warner, Guasch, Tang)** and **ETH (Fichtner)** — all confirmed current, no changes; Guasch in particular turned out *not* to be stale despite the brief's caution, and a bonus current PI (Cueto Mondéjar) surfaced in the same group.
 - **Vučković, Rodriguez, Johnson, Sigmund, Christiansen** — all confirmed current; Rodriguez's title had changed (Assistant → Associate Professor) since the list was drawn up.
+- **Nebojsa Duric (University of Rochester) — dropped 2026-10-15, by the applicant, not for a factual error.** The entry's facts (institutional home, clinical/engineering department ambiguity) were not challenged; the applicant judged this program too medical-oriented relative to the methodological framing they want for variant A.
 
 ---
 
@@ -167,3 +161,15 @@ Two separate departments are active in ultrasound tomography via the joint **TRU
 1. Direct confirmation needed: which specific department Anastasio's (WashU) and Duric's (Rochester) PhD students are actually admitted through — both are dual/clinical-adjacent appointments where the admissions "front door" isn't obvious from public pages alone.
 2. Official re-check needed: ETH's own erdw.ethz.ch Fichtner page and DTU's orbit.dtu.dk Christiansen page (both failed to load directly in this research pass; findings rest on third-party corroboration instead).
 3. If the 5-6/5-6 Europe/US split is a hard requirement rather than a preference, a follow-up research pass specifically hunting 1-2 more European USCT or photonics anchors (via the Fichtner/Warner/Sigmund citation networks) would be the right next step — not padding this list with the Twente/Delft leads already considered and set aside.
+
+---
+
+## 7. Integrity re-check (2026-10-15)
+
+The applicant caught that the original Villa entry's "POI contact: unconfirmed, likely committee-based" was wrong — Villa's own page states the opposite directly (§1.4). **Root cause:** the first pass checked the institute/department admissions page and a co-authored tooling paper, not the PI's own personal site, which is where an explicit contact invitation actually lives when one exists. That's a real process gap, not a one-off: department pages describe the *program's* norm, not what an individual PI has chosen to state about their own availability, and the two can diverge (as they did here).
+
+To check whether the same gap produced other wrong "unconfirmed" labels, I re-searched for a personal/lab-page contact statement for every remaining PI in the list: Warner, Guasch, Calderón Agudo, Tang (Imperial); Fichtner (ETH); Anastasio (WashU); Lin (UNC); Vučković, Rodriguez, Johnson (Stanford/Princeton/MIT); Sigmund, Christiansen (DTU).
+
+**Result: no further correction found, but this should be read as "still genuinely unconfirmed," not as "verified correct."** None of these searches surfaced a personal page with as explicit a statement as Villa's, in either direction — no PI's own site was found saying "I don't take unsolicited contact" or confirming the "optional/committee-based" inference either. One partial exception: Sigmund's situation is consistent with what the file already said (DTU runs funded, advertised positions rather than open-ended PI contact) — his 2025 election to DTU's Executive Board, found in this pass, if anything reinforces that he's likely less available for ad hoc contact than in earlier years, not less. **This re-check does not clear the remaining "unconfirmed" labels — it only failed to find a second case as clear-cut as Villa's.** Direct email to each PI, or a check of each PI's own lab homepage specifically (not just the department's), remains the reliable way to close these before relying on them.
+
+---
